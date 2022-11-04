@@ -15,6 +15,8 @@ public class Main {
         studentSet.add(a2);
         studentSet.add(a3);
 
+        System.out.println(studentSet);
+
         Curso curso = new Curso("Engenharia da Computação", studentSet);
 
         String name = "Gustavo";

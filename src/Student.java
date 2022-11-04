@@ -20,10 +20,8 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
-                "nome='" + name + '\'' +
-                ", matricula=" + registration +
-                '}';
+        return name + " : " + Objects.hash(name, registration);
+
     }
 
     @Override
